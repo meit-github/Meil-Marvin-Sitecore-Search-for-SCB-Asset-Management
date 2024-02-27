@@ -25,7 +25,7 @@ const Home = () => {
         <HeroContentWrapper>
           <HeroContentRow>
             <HeroAlignCenter>
-              <h1>Jupiter Asset Management powered by Sitecore Search</h1>
+              <h1>SCB Asset Management powered by Sitecore Search</h1>
             </HeroAlignCenter>
           </HeroContentRow>
       </HeroContentWrapper>

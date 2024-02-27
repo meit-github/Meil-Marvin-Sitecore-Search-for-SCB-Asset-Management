@@ -19,7 +19,7 @@ export const HeroRow = styled.div`
 export const HeroWrapper = styled.div`
   max-width: 1920px;
   margin: auto;
-  background-image: url(https://www.jupiteram.com/uploads/2021/02/ef3dabf070582bc171434c2e6dbdd2a1/jupiter_spark_gi-129747532_hires_1600x600px.jpg);
+  background-image: url(https://www.imd.org/wp-content/uploads/2023/07/20230228-CustomPrograms-SCB-TopBanner-2880x1120-AJ-1920x747.jpg);
   min-height: 324px;
   height: 324px;
   background-position: center center;
