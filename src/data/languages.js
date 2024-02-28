@@ -1,18 +1,10 @@
 export default [
   {
     value: 'en',
-    label: 'United Kingdom English',
+    label: 'English',
   },
   {
-    value: 'de',
-    label: 'Germany Deutsch',
-  },
-  {
-    value: 'fr',
-    label: 'France Français',
-  },
-  {
-    value: 'es',
-    label: 'Spain Español',
+    value: 'th',
+    label: 'Thai',
   },
 ];
