@@ -47,6 +47,16 @@ function extract(request, response) {
     title = "Marvin PDF Title";
   }
 
+   //asset_type
+      const assetClass = [
+        "Alternatives",
+        "Shares",
+        "Bonds",
+        "Multi-asset",
+        "Multi-manager",
+    ];
+    const assetClassRandom = Math.floor(Math.random() * assetClass.length);
+
   return [
     {
       id: getRandomID(20), //id,
@@ -60,7 +70,7 @@ function extract(request, response) {
       url: url,
       investor_type: "marvin investorType",
       body_text: "marvin body_text",
-      asset_class: "marvin asset_class",
+      asset_class: (assetClassRandom, assetClass[assetClassRandom]),
       product_type: "marvin product_type",
       document_type: "PDF",
     },
