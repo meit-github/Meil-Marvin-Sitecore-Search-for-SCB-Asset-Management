@@ -67,10 +67,12 @@ export const SearchResultsWithLayoutOptionComponent = ({
     query: (query) => {
     query
     .getRequest()
+    .setSources(["963457","963479", "963485"])
     .setSearchQueryHighlightFragmentSize(500)
     .setSearchQueryHighlightFields(['name', 'description'])
     .setSearchQueryHighlightPreTag(HIGHLIGHT_DATA.pre)
     .setSearchQueryHighlightPostTag(HIGHLIGHT_DATA.post);
+    
   },
     state: {
     sortType: defaultSortType,
