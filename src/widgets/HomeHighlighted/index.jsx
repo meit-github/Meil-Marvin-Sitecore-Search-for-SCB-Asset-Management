@@ -9,7 +9,7 @@ export const HomeHighlightedComponent = () => {
     queryResult: { data: { content: articles = [] } = {} },
   } = useSearchResults({
     query: (query) => {
-      query.getRequest().setSearchFilter(new FilterEqual('type', 'Mutual Fund'));
+      query.getRequest().setSearchFilter(new FilterEqual('type', 'Primary'));
     },
   });
   const articlesToShow = articles.slice(0, 3);
