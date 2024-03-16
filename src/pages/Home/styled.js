@@ -19,7 +19,7 @@ export const HeroRow = styled.div`
 export const HeroWrapper = styled.div`
   max-width: 1920px;
   margin: auto;
-  background-image: url(https://wallpapercave.com/wp/IlpLRYK.jpg);
+  background-image: url(https://www.hdwallpapers.in/download/library_books_bookshelves_interior_4k_hd_travel-HD.jpg);
   min-height: 324px;
   height: 324px;
   background-position: center center;
