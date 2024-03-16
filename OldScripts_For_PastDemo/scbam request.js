@@ -6,7 +6,7 @@ function extract(request, response) {
   
     var scbUrl = $('meta[property="og:url"]').attr("content") || url;
 
-    var scbImageUrl = $('meta[property="og:image"]').attr("content");
+    var scbImageUrl = $('meta[property="og:image"]').attr("content") || $('.img-responsive').attr('src');
 
     var scbUrlArray = scbUrl.split("/");
     var scbType = "";
@@ -71,7 +71,15 @@ function extract(request, response) {
                 //scbImageUrl = "https://cdn-icons-png.flaticon.com/512/2965/2965879.png";
                 scbImageUrl = "https://www.scb.co.th/content/dam/scb/personal-banking/stories-tips/esg-investment-6-important-factors/esg-investment-6-important-factors-03.jpg";
             }
-        } else {
+        } else if(scbType == "video-gallery") {
+            scbType = "Video Gallery";
+
+            if (typeof scbImageUrl === "undefined"){
+                //scbImageUrl = "https://cdn-icons-png.flaticon.com/512/2965/2965879.png";
+                scbImageUrl = "https://i.pinimg.com/736x/42/8a/6c/428a6c6ed682dd695a731583ebb5b4b9.jpg";
+            }
+        }
+         else {
             scbType = "Others";
         }
     }
