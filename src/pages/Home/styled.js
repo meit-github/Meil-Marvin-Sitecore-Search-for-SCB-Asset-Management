@@ -19,7 +19,7 @@ export const HeroRow = styled.div`
 export const HeroWrapper = styled.div`
   max-width: 1920px;
   margin: auto;
-  background-image: url(https://static1.straitstimes.com.sg/s3fs-public/styles/large30x20/public/articles/2023/10/26/IMGL0903.JPG?h=11f638b8);
+  background-image: url(https://wallpapercave.com/wp/IlpLRYK.jpg);
   min-height: 324px;
   height: 324px;
   background-position: center center;
