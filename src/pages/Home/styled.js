@@ -19,7 +19,7 @@ export const HeroRow = styled.div`
 export const HeroWrapper = styled.div`
   max-width: 1920px;
   margin: auto;
-  background-image: url(https://www.hdwallpapers.in/download/library_books_bookshelves_interior_4k_hd_travel-HD.jpg);
+  background-image: url(https://www.sentosa.com.sg/-/media/sentosa/islander/islander-new-campaign-hero-banner.jpg?revision=29dd072e-1e15-4c0c-a4e1-aed44eb44361);
   min-height: 324px;
   height: 324px;
   background-position: center center;
