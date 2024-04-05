@@ -38,7 +38,7 @@ const Home = () => {
       <HighlightedArticles>
         <HighlightedWrapper>
           <HTMBlockWidget rfkId="highlight_title2" />
-          <HomeHighlighted rfkId="search_home_highlight_articles" />
+          <HomeHighlighted rfkId="search_home_highlights_articles" />
         </HighlightedWrapper>
       </HighlightedArticles>
     </>
