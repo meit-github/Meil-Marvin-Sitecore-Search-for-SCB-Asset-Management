@@ -20,7 +20,7 @@ export const HeroRow = styled.div`
 export const HeroWrapper = styled.div`
   max-width: 1920px;
   margin: auto;
-  background-image: url(https://www.imh.com.sg/PublishingImages/home/carousel/IMH-Web-Banner-nhgcares.jpg);
+  background-image: url(https://corp.nhg.com.sg/Documents/CYB%202021%20Digital/assets/images/digitaltrans_img1.jpg);
   min-height: 324px;
   height: 324px;
   background-position: center center;
@@ -46,7 +46,7 @@ export const HeroContentWrapper = styled.div`
     position: relative;
 
     h1 {
-        color: #000000;
+        color: #ffff;
     }
 `;
 
