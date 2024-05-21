@@ -20,7 +20,7 @@ export const HeroRow = styled.div`
 export const HeroWrapper = styled.div`
   max-width: 1920px;
   margin: auto;
-  background-image: url(https://corp.nhg.com.sg/Documents/FY22%20FY23%20NHG%20Corporate%20Yearbook%20Digital/assets/images/banner1.jpg);
+  background-image: url(https://corp.nhg.com.sg/Documents/FY22%20FY23%20NHG%20Corporate%20Yearbook%20Digital/assets/images/sparkly-background-with-text-smaller.jpg);
   min-height: 324px;
   height: 324px;
   background-position: center center;
