@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 //import { theme } from '@sitecore-search/ui';
+//background-image: url(https://www.sentosa.com.sg/-/media/sentosa/islander/islander-new-campaign-hero-banner.jpg?revision=29dd072e-1e15-4c0c-a4e1-aed44eb44361);
 
 export const HeroContainer = styled.div`
     flex: 0 0 100%;
@@ -19,7 +20,7 @@ export const HeroRow = styled.div`
 export const HeroWrapper = styled.div`
   max-width: 1920px;
   margin: auto;
-  background-image: url(https://www.sentosa.com.sg/-/media/sentosa/islander/islander-new-campaign-hero-banner.jpg?revision=29dd072e-1e15-4c0c-a4e1-aed44eb44361);
+  background-image: url(https://corp.nhg.com.sg/Documents/FY22%20FY23%20NHG%20Corporate%20Yearbook%20Digital/assets/images/banner1.jpg);
   min-height: 324px;
   height: 324px;
   background-position: center center;

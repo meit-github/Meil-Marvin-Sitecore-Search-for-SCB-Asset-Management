@@ -8,8 +8,8 @@ function extract(request, response) {
  
     var scbImageUrl = $('meta[property="og:image"]').attr("content") ||
     $(".gridAsset__image")[0].currentSrc ||
-    "https://www.sentosa.gov.sg/images/who-we-are/our-brands/sentosa_logonew.png";
-
+    //"https://www.sentosa.gov.sg/images/who-we-are/our-brands/sentosa_logonew.png";
+    "https://corp.nhg.com.sg/Style%20Library/Images/logo.jpg";
     var scbType = $(".category-pill__title").text() || "Others";
 
     var scbamName = 
