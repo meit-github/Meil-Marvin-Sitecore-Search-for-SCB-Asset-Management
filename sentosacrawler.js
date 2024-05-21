@@ -6,15 +6,19 @@ function extract(request, response) {
  
     var scbUrl = $('meta[property="og:url"]').attr("content") || url;
  
-    // var scbUrl = location.href;
-    //var scbUrlArray = scbUrl.split("/");
+    var scbImageUrl = $('meta[property="og:image"]').attr("content") ||
+    $(".gridAsset__image")[0].currentSrc ||
+    //"https://www.sentosa.gov.sg/images/who-we-are/our-brands/sentosa_logonew.png";
+    "https://corp.nhg.com.sg/Style%20Library/Images/logo.jpg";
  
-    var scbamName = 
+    var scbType = $(".category-pill__title").text() || "Others";
+ 
+    var scbamName =
         $("h1").text() ||
         $('meta[property="og:title"]').attr("content") ||
         $("title").text();    
  
-    var scbDescription = 
+    var scbDescription =
         $("p").text() ||    
         $('meta[property="og:description"]').attr("content");
  
@@ -22,9 +26,9 @@ function extract(request, response) {
       {
         id: id,
         description: scbDescription.replace(/\s+/g, " "),
-        image_url: "https://www.sentosa.gov.sg/images/who-we-are/our-brands/sentosa_logonew.png",
+        image_url: scbImageUrl,
         name:  scbamName.replace(/\s+/g, " "),
-        type: "YOUR TYPE",
+        type: scbType,
         url: scbUrl,
       },
     ];
